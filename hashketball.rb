@@ -177,7 +177,15 @@ end
 end 
 
 
-
+def big_shoe_rebounds
+  biggest_shoe = 0 
+  number_of_rebounds = 0 
+  
+  game_hash.each do |team, stats|
+    binding.pry 
+    
+  end
+end 
 
 # def big_shoe_rebounds
      
