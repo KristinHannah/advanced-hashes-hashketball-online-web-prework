@@ -182,7 +182,6 @@ def big_shoe_rebounds
   number_of_rebounds = 0 
   
   game_hash.each do |team, stats|
-    binding.pry 
     stats[:players].each do |data| 
       binding.pry 
     end
